@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StafDetail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/staf_photo"
+                android:layout_width="225dp"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                tools:src="#33AFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_toEndOf="@id/staf_photo">
+
+                <TextView
+                    android:id="@+id/staf_name_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#000"
+                    android:text="@string/name_header" />
+
+                <TextView
+                    android:id="@+id/staf_name_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/name_field_staf" />
+
+                <TextView
+                    android:id="@+id/staf_position_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#000"
+                    android:text="@string/position_header" />
+
+                <TextView
+                    android:id="@+id/staf_position_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/position_field_staf" />
+
+                <TextView
+                    android:id="@+id/staf_code_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#000"
+                    android:text="@string/code_header" />
+
+                <TextView
+                    android:id="@+id/staf_code_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/code_field_staf" />
+
+                <TextView
+                    android:id="@+id/staf_phone_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#000"
+                    android:text="@string/phone_header" />
+
+                <TextView
+                    android:id="@+id/staf_phone_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/phone_field_staf" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/contact_btnSet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_whatsapp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonColor"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="@string/send_whatsapp" />
+
+            <Button
+                android:id="@+id/btn_dialer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonColor"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="@string/call_staf" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textStyle="bold|italic"
+            android:textAlignment="center"
+            android:textColor="#0024A0"
+            android:layout_marginTop="16dp"
+            android:text="@string/profil_header" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textSize="20sp"
+            android:text="@string/dummy_text" />
+    </LinearLayout>
+</ScrollView>

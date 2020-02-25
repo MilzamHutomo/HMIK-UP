@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HMIK UP</string>
+    <string name="name_field_staf">Nama Staf</string>
+    <string name="position_field_staf">Jabatan Staf</string>
+    <string name="detail">Detail</string>
+    <string name="dial">Dial</string>
+    <string name="name_header">Nama Staf</string>
+    <string name="position_header">Jabatan</string>
+    <string name="code_header">Code Staf</string>
+    <string name="code_field_staf">Code Staf</string>
+    <string name="phone_header">No. HP</string>
+    <string name="phone_field_staf">No. HP Staf</string>
+    <string name="send_whatsapp">Send Whatsapp</string>
+    <string name="call_staf">Call</string>
+    <string name="profil_header">PROFIL STAFF</string>
+    <string name="dummy_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius, nunc eget dapibus fermentum, enim dolor porttitor ipsum, eget viverra nisi nisl vitae ipsum. Mauris sit amet semper sapien. Morbi ut pellentesque erat, at egestas elit. Aliquam vehicula nisi neque, nec iaculis purus scelerisque eget. Aliquam rutrum facilisis elit, sit amet bibendum velit convallis quis. Sed interdum laoreet neque ac aliquet. Suspendisse gravida efficitur neque, eu tincidunt mauris fermentum id. Praesent mattis nisi eget mi malesuada semper. Maecenas semper enim quis elit vehicula, vel pharetra nulla porttitor. Curabitur ullamcorper mauris cursus posuere condimentum. In et ipsum quis arcu egestas faucibus ac ullamcorper enim. Cras sagittis id quam quis efficitur. Maecenas luctus massa eros, sed sodales est dictum ut. Curabitur ipsum enim, sagittis vitae dapibus sit amet, consectetur a ante.</string>
+    <string name="dev_profile">Developer Profile</string>
+    <string name="dev_name">NAMA DEVELOPER</string>
+    <string name="dev_name_container">MOHAMMAD MILZAM KASYFILLAH HUTOMO</string>
+    <string name="dev_mail">E-MAIL</string>
+    <string name="dev_mail_container">milzam.khutomo@gmail.com</string>
+</resources>
